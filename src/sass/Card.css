@@ -1,0 +1,41 @@
+.wrapper {
+    border: 2px solid #A9A9A9;
+    text-align: center;
+    color: #49a77c;
+    background: #f6f6f6;
+    font-family: cursive;
+    margin: 30px;
+    padding: 10px;
+    width: 30%;
+    float: left;
+}
+.image {
+    width: 40%; 
+}
+.btn{
+  font-weight: 900;
+  font-family: cursive;
+  color: #49a77c;
+  padding: 10px;
+  border-radius: 50px;
+  background: #eaf9f0;
+  transition: 0.2s;
+} 
+.btn:hover { 
+    background: rgb(53, 167, 110);
+    color: #fff;
+}
+.btn:active { 
+  color: #fff;        
+  background: rgb(33,147,90);
+
+}
+.text, .text-category {
+    color: black;
+    font-size: 10px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
